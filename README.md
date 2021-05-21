@@ -21,6 +21,7 @@ Eu acabei perdendo o documento em que eu documentava as mudanças, erros e avan�
 
 ## Funções
 
+- Mostra o momento atual do vídeo (HH:MM:SS)
 - Reproduzir e pausar (mesmo botão para isso, trocam o ícone conforme a função)
 - Slider de tempo
 - Controle de volume
@@ -31,6 +32,7 @@ Eu acabei perdendo o documento em que eu documentava as mudanças, erros e avan�
 
 ## Erros conhecidos
 
+- Ícones de avançar/retroceder perdidos ou excluídos.
 - Reprodutor as vezes buga ao mexer no slider, ficando mais lento
 - Falta de responsividade (O projeto foi feito pensando na resolução máximo do notebook que usava (1366x768), logo resoluções maiores ficarão com bordas pretas ao redor do vídeo)
 
