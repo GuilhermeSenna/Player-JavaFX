@@ -7,7 +7,7 @@ Eu acabei perdendo o documento em que eu documentava as mudan√ßas, erros e avan√
 
 ![Forma 1](Forma1.png)
 
-![Forma 2](Forma2.PNG)
+![Forma 2](forma2.PNG)
 
 
 ---
