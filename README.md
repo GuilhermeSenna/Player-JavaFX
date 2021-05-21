@@ -3,7 +3,7 @@
 
 Eu acabei perdendo o documento em que eu documentava as mudanças, erros e avanços no programa, então posso ter deixado passar alguma coisa.
 
-!["Página inicia"](Tela inicial.PNG?raw=true "Title")
+!["Página inicial"](/Tela inicial.PNG?raw=true "Title")
 
 
 ---
