@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.media.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="janelas.VideoController">
+   <bottom>
+      <HBox alignment="CENTER" prefHeight="0.0" prefWidth="1366.0" spacing="30.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnBack" mnemonicParsing="false" onAction="#Back" prefHeight="16.0" prefWidth="16.0" />
+            <Button fx:id="playpause" mnemonicParsing="false" onAction="#PlayPause" prefHeight="20.0" prefWidth="20.0">
+               <HBox.margin>
+                  <Insets />
+               </HBox.margin></Button>
+            <Button fx:id="btnNext" mnemonicParsing="false" onAction="#Next" prefHeight="16.0" prefWidth="16.0" />
+            <Button fx:id="reload" mnemonicParsing="false" onAction="#Reload" prefHeight="20.0" prefWidth="20.0" />
+            <Button fx:id="btnRatio" mnemonicParsing="false" onAction="#ajustarTela" prefHeight="20.0" prefWidth="20.0" />
+            <Separator orientation="VERTICAL" prefHeight="200.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Vol:" />
+            <Text fx:id="volText" nodeOrientation="RIGHT_TO_LEFT" strokeType="OUTSIDE" strokeWidth="0.0">
+               <HBox.margin>
+                  <Insets left="-20.0" />
+               </HBox.margin>
+            </Text>
+            <Slider fx:id="audioSlider">
+               <HBox.margin>
+                  <Insets left="-20.0" />
+               </HBox.margin>
+            </Slider>
+            <Separator orientation="VERTICAL" prefHeight="200.0" />
+            <Label fx:id="lblTexto" prefHeight="17.0" prefWidth="140.0" text="_:__:__,_ / _:__:___,_" />
+            <Separator orientation="VERTICAL" prefHeight="200.0" />
+            <Label prefHeight="17.0" prefWidth="64.0" text="At the end:" />
+            <ChoiceBox fx:id="cb" prefWidth="150.0" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Time skip (sec)" wrappingWidth="65.109375" />
+            <ChoiceBox fx:id="cb2" prefWidth="150.0" />
+         </children>
+         <BorderPane.margin>
+            <Insets bottom="4.0" />
+         </BorderPane.margin></HBox>
+   </bottom>
+   <left>
+      <ScrollPane fx:id="sp" minWidth="10.0" onMouseEntered="#mostrarAba" onMouseExited="#fecharAba" prefHeight="257.0" prefWidth="97.0" BorderPane.alignment="CENTER">
+         <content>
+            <VBox fx:id="vb" prefHeight="750.0" prefWidth="88.0" spacing="20.0" style="-fx-background-color: deepskyblue;">
+               <children>
+                  <Button fx:id="backButton" mnemonicParsing="false" onAction="#voltarMenu" prefHeight="20.0" prefWidth="20.0" />
+                  <Separator prefHeight="2.0" prefWidth="88.0" />
+                  <Button mnemonicParsing="false" onAction="#trocarVideo1" text="op1" />
+                  <Button mnemonicParsing="false" onAction="#trocarVideo2" text="op2" />
+                  <Button mnemonicParsing="false" onAction="#trocarVideo3" text="op3" />
+                  <Button layoutX="22.0" layoutY="155.0" mnemonicParsing="false" onAction="#trocarVideo4" text="op4" />
+               </children>
+               <padding>
+                  <Insets left="12.0" top="10.0" />
+               </padding>
+            </VBox>
+         </content>
+      </ScrollPane>
+   </left>
+   <center>
+      <StackPane fx:id="stp" prefHeight="309.0" prefWidth="1247.0" style="-fx-background-color: black;" BorderPane.alignment="CENTER">
+         <children>
+            <MediaView fx:id="mv" fitHeight="710.0" fitWidth="1230.0">
+               <viewport>
+                  <Rectangle2D />
+               </viewport>
+            </MediaView>
+            <Slider fx:id="videoSlider" StackPane.alignment="BOTTOM_CENTER" />
+         </children>
+      </StackPane>
+   </center>
+</BorderPane>
