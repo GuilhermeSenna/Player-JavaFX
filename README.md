@@ -5,9 +5,9 @@ Eu acabei perdendo o documento em que eu documentava as mudanças, erros e avan�
 
 ![Página inicial](Telainicial.PNG)
 
-![Página inicial](Forma1.PNG)
+![Forma 1](Forma1.png)
 
-![Página inicial](Forma2.PNG)
+![Forma 2](Forma2.PNG)
 
 
 ---
