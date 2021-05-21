@@ -25,7 +25,7 @@ Eu acabei perdendo o documento em que eu documentava as mudanças, erros e avan�
 ## Erros conhecidos
 
 - Reprodutor as vezes buga ao mexer no slider, ficando mais lento
-- Falta de responsividade (O projeto foi feito pensando na resolução máximo do notebook que usava (1366x768) logo resoluções maiores ficaram com bordas pretas ao redor do vídeo)
+- Falta de responsividade (O projeto foi feito pensando na resolução máximo do notebook que usava (1366x768), logo resoluções maiores ficarão com bordas pretas ao redor do vídeo)
 
 
 
