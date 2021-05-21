@@ -14,7 +14,7 @@ Eu acabei perdendo o documento em que eu documentava as mudanças, erros e avan�
 
 ## Funções
 
-- Reproduzir e pausar (mesmo ícone para isso, trocam o ícone conforme a função)
+- Reproduzir e pausar (mesmo botão para isso, trocam o ícone conforme a função)
 - Slider de tempo
 - Controle de volume
 - Avançar e retroceder (com possibilidade de escoher os segundos 1, 2, 5 e 10 segundos)
