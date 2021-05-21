@@ -3,7 +3,7 @@
 
 Eu acabei perdendo o documento em que eu documentava as mudanças, erros e avanços no programa, então posso ter deixado passar alguma coisa.
 
-![Página inicial](Tela inicial.PNG)
+![Página inicial](Tela_inicial.PNG)
 
 
 ---
