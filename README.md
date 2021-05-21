@@ -23,6 +23,7 @@ Eu acabei perdendo o documento em que eu documentava as mudanças, erros e avan�
 
 - Mostra o momento atual do vídeo (HH:MM:SS)
 - Reproduzir e pausar (mesmo botão para isso, trocam o ícone conforme a função)
+- Reiniciar o vídeo
 - Slider de tempo
 - Controle de volume
 - Avançar e retroceder (com possibilidade de escoher os segundos 1, 2, 5 e 10 segundos)
