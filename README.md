@@ -32,7 +32,7 @@ Arquivo com log nas mudanças recuperado!
 - Barra lateral que fecha quando se tira o mouse (para dar mais visibidade ao player)
 - Funções extras como preserve ratio (Manter proporção ou preencher toda a tela)
 
-## Erros corrigos
+## Erros corrigidos
 
 FIX:
 
