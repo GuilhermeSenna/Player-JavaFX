@@ -55,23 +55,23 @@ FIX:
 ## Planejamento futuro
 
 Prioridade alta:
-	- Testar previews (virtual Dub).
-	- Esconder o sliderVideo e os botões de média após um tempo.
+- Testar previews (virtual Dub).
+- Esconder o sliderVideo e os botões de média após um tempo.
 	
 Prioridade média:
-	- Deixar um texto ao passar mouse por cima dos botões das opções.
+- Deixar um texto ao passar mouse por cima dos botões das opções.
 
 Prioridade baixa:
-	- Procurar um estilo maior.
-	- Procurar como evitar essa mensagens de tela cheia.
-	- Salvar o volume em um arquivo.
-	- Usar scroll do mouse para definir o volume.
-	- Usar setas para dar skip e back.
-	- efeito de ocultar a aba mais sutil.
-	- Implementar lógica de next e back videos.
+- Procurar um estilo maior.
+- Procurar como evitar essa mensagens de tela cheia.
+- Salvar o volume em um arquivo.
+- Usar scroll do mouse para definir o volume.
+- Usar setas para dar skip e back.
+- efeito de ocultar a aba mais sutil.
+- Implementar lógica de next e back videos.
 	
 Upgrade:
-	- Implementar uma forma do programa reconhecer os arquivos de video, atribuir os caminhos corretos e colocar o nome deles nos botões.
-			- para os arquivos em gerais.
-	- Após os recursos basicos estarem nos conformes, implementar uma forma de jogar o dist ou .exe e criar as opções de acordo com os arquivos dispostos na página.
+- Implementar uma forma do programa reconhecer os arquivos de video, atribuir os caminhos corretos e colocar o nome deles nos botões.
+	- para os arquivos em gerais.
+- Após os recursos basicos estarem nos conformes, implementar uma forma de jogar o dist ou .exe e criar as opções de acordo com os arquivos dispostos na página.
 
